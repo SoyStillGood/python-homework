@@ -11,4 +11,5 @@ my_file_lines = my_file.split('\n')
 print(my_file)
 
 for line in my_file_lines:
-    print([line])
+    if line =! '':
+        print([line])

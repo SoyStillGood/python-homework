@@ -6,3 +6,4 @@ args = parser.parse_args()
 file = args.file
 data=open(file)
 my_file = data.readlines()
+print(my_file)

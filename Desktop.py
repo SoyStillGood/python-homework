@@ -4,7 +4,7 @@ dirs = os.listdir(path)
 print(dirs)
 
 for file in dirs:
-    if os.path.isfile(file) is True:
+    if os.path.isfile(file)==True:
         print(file, 'file')
     else:
         print(file, 'directory')

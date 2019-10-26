@@ -11,11 +11,11 @@ my_file_lines = my_file.split('\n')
 print(my_file)
 
 for line in my_file_lines:
-    if line != " ":
+    if line != '':
         print([line])
 #the line above was supposed to try and eliminate the last
 # empty list but didn't... maybe you could show how to do this?
-# this did not work for me:
+# this did NOT work for me:
 # for line in my_file_lines:
 #     if line != " ":
 #         print([line])

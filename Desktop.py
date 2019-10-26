@@ -4,4 +4,6 @@ dirs = os.listdir(path)
 print(dirs)
 
 for file in dirs:
-    print(file)
+    print(file, 'file')
+for dir in dirs:
+    print(dir, 'directory')
